@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  MFOS-iOS
+//
+//  Created by Alvin.Feng on 2017/12/21.
+//  Copyright © 2017年 Alvin.Feng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define PathStr  @"http://202.96.175.221:30701/MFOS/AppLogin/api"
+#define ImagePathStr  @"http://202.96.175.221:30701/MFOS/AppLogin"
+#import "UIView+AddLoginLayer.h"
+#import "MBProgressHUD+YL.h"
+#import "NSObject+Network.h"
+#import "NSString+md5.h"
+#import "HttpsHelper.h"
+#import "MJRefresh.h"
+#import "SDWebImageManager.h"
+#import "UIImageView+WebCache.h"
+#import "AFNetworking.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
